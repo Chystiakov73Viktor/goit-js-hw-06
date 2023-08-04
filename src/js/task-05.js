@@ -1,9 +1,9 @@
 const inputElement = document.querySelector("#name-input");
 const spanElement = document.querySelector("#name-output");
 
-inputElement.addEventListener("input", oninput);
+inputElement.addEventListener("input", onChangStringValue);
 
-function oninput(evt) {
+function onChangStringValue(evt) {
   if (evt.currentTarget.value !== "") {
     spanElement.textContent = evt.currentTarget.value;
   } else {
