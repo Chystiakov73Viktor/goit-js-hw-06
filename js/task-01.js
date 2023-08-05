@@ -1,5 +1,3 @@
-"use strict";
-
 const itemEl = document.querySelector("#categories");
 console.log(`Number of categories: ${itemEl.children.length}`);
 
