@@ -9,7 +9,7 @@ function onFormSubmit(event) {
   const password = formElements.password.value;
 
   if (!email || !password) {
-    alert("the form has blank fields");
+    return alert("the form has blank fields");
   }
   const formData = {
     email,
